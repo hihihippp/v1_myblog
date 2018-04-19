@@ -8,6 +8,7 @@ fi
 
 # enable error reporting to the console
 set -e
+npm --version
 
 # cleanup "_site"
 rm -rf _site
