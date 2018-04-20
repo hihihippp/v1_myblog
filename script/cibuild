@@ -28,4 +28,4 @@ git add --all
 git commit -a -m "Travis #$TRAVIS_BUILD_NUMBER"
 git push --force origin gh-pages
 
-json-server db.json
+json-server db.json &
